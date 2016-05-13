@@ -76,3 +76,18 @@
         <p></p>
     </footer>
 
+## Операции с аттрибутами
+
+### Классы и идентификаторы
+Как и в CSS, использование `.` для класса и `#` для идентификатора приводит к созданию собственно класса или идентификатора:
+
+    div#header+div.page+div#footer.class1.class2.class3
+    
+Выводит:
+
+    <div id="header"></div>
+    <div class="page"></div>
+    <div id="footer" class="class1 class2 class3"></div>
+    
+### Другие аттрибуты
+
